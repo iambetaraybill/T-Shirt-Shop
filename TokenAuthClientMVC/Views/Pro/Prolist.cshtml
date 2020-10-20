@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "_Signout";
+}
+@{
+    ViewData["Title"] = "Product Page";
+}
+@using TokenAuthClientMVC.Models
+@using Product_MS.DB.Entities
+
+@{
+
+    var data = ViewBag.User;
+    var Pros = ViewBag.Pro;
+}
+<H1>Welcome @data.Name </H1><br />
+
+
+
+
+@*<H1>Welcome @Pros[0].Color Broooo</H1>*@
+
+
+
+<table class="table table-bordered table-hover text-center">
+    <tr>
+        <th>T-Shirt Name</th>
+        <th>T-Shirt Color</th>
+        <th>Description</th>
+        <th>Add To Cart</th>
+    </tr>
+    @foreach (var d in Pros)
+    {
+        
+        
+        <tr>
+            <td>@d.Name</td>
+            <td>@d.Color</td>
+            <td>@d.Description</td>
+            <td>@Html.ActionLink("+-ADD-+", "AddToCart","Crt",new { pid = d.ProductId, pn = d.Name },null)</td>
+
+        </tr>
+
+    }
+</table>

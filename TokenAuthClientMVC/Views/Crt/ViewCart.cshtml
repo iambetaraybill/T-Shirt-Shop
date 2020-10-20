@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "_Signout";
+}
+@{
+    ViewData["Title"] = "View Cart Page";
+}
+@using Cart_MS.DB.Entities
+@using TokenAuthClientMVC.Models;
+
+
+
+@{
+
+    var data = ViewBag.Ussr;
+    var Cra = ViewBag.Cra;
+}
+
+<H1> @data.Name's Cart </H1>
+<br />
+
+
+<table class="table table-bordered table-hover text-center">
+    <tr>
+        <th>Product Name</th>
+    </tr>
+    @foreach (var d in Cra)
+    {
+
+
+        <tr>
+            <td>@d.Name</td>
+
+        </tr>
+
+    }
+</table>

@@ -1,0 +1,236 @@
+INFO  11:42:44 Application started. Press Ctrl+C to shut down.
+INFO  11:42:44 Application started. Press Ctrl+C to shut down.
+INFO  11:42:44 Hosting environment: Development
+INFO  11:42:44 Hosting environment: Development
+INFO  11:42:44 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  11:42:44 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  11:42:45 Failed to determine the https port for redirect.
+WARN  11:42:45 Failed to determine the https port for redirect.
+INFO  11:42:59 Token Is Generated!
+INFO  08:55:05 Application started. Press Ctrl+C to shut down.
+INFO  08:55:05 Application started. Press Ctrl+C to shut down.
+INFO  08:55:05 Hosting environment: Development
+INFO  08:55:05 Hosting environment: Development
+INFO  08:55:05 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  08:55:05 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  08:55:05 Failed to determine the https port for redirect.
+WARN  08:55:05 Failed to determine the https port for redirect.
+INFO  08:55:55 Getting List OF Products!
+INFO  01:37:52 Application started. Press Ctrl+C to shut down.
+INFO  01:37:52 Application started. Press Ctrl+C to shut down.
+INFO  01:37:52 Hosting environment: Development
+INFO  01:37:52 Hosting environment: Development
+INFO  01:37:52 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  01:37:52 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  01:37:52 Failed to determine the https port for redirect.
+WARN  01:37:52 Failed to determine the https port for redirect.
+INFO  01:38:29 Getting List OF Products!
+INFO  01:38:40 Getting List OF Products!
+INFO  07:09:33 Application started. Press Ctrl+C to shut down.
+INFO  07:09:33 Application started. Press Ctrl+C to shut down.
+INFO  07:09:33 Hosting environment: Development
+INFO  07:09:33 Hosting environment: Development
+INFO  07:09:33 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  07:09:33 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  07:09:33 Failed to determine the https port for redirect.
+WARN  07:09:33 Failed to determine the https port for redirect.
+INFO  07:10:18 Getting List OF Products!
+INFO  07:10:42 Getting List OF Products!
+INFO  07:12:35 Getting List OF Products!
+INFO  07:12:41 Getting List OF Products!
+INFO  07:12:56 Getting List OF Products!
+INFO  07:13:03 Getting List OF Products!
+INFO  08:19:37 Application started. Press Ctrl+C to shut down.
+INFO  08:19:37 Application started. Press Ctrl+C to shut down.
+INFO  08:19:37 Hosting environment: Development
+INFO  08:19:37 Hosting environment: Development
+INFO  08:19:37 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  08:19:37 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  08:19:37 Failed to determine the https port for redirect.
+WARN  08:19:37 Failed to determine the https port for redirect.
+ERROR 08:19:49 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Product_MS.Repository.IProductRepository' while attempting to activate 'Product_MS.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:19:49 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Product_MS.Repository.IProductRepository' while attempting to activate 'Product_MS.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  08:22:47 Application started. Press Ctrl+C to shut down.
+INFO  08:22:47 Application started. Press Ctrl+C to shut down.
+INFO  08:22:47 Hosting environment: Development
+INFO  08:22:47 Hosting environment: Development
+INFO  08:22:47 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  08:22:47 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  08:22:47 Failed to determine the https port for redirect.
+WARN  08:22:47 Failed to determine the https port for redirect.
+INFO  08:22:54 Getting List OF Products!
+INFO  08:22:59 Getting List OF Products By Id!
+INFO  08:26:18 Getting List OF Products!
+INFO  08:28:47 Product Added To DB!
+INFO  08:29:28 Product Added To DB!
+INFO  08:30:01 Product Added To DB!
+INFO  08:30:06 Getting List OF Products!
+INFO  08:34:21 Application started. Press Ctrl+C to shut down.
+INFO  08:34:21 Application started. Press Ctrl+C to shut down.
+INFO  08:34:21 Hosting environment: Development
+INFO  08:34:21 Hosting environment: Development
+INFO  08:34:21 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  08:34:21 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  08:34:21 Failed to determine the https port for redirect.
+WARN  08:34:21 Failed to determine the https port for redirect.
+INFO  08:34:41 Getting List OF Products!
+INFO  08:35:05 Getting List OF Products!
+INFO  08:35:15 Getting List OF Products!
+INFO  08:37:02 Application started. Press Ctrl+C to shut down.
+INFO  08:37:02 Application started. Press Ctrl+C to shut down.
+INFO  08:37:02 Hosting environment: Development
+INFO  08:37:02 Hosting environment: Development
+INFO  08:37:02 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  08:37:02 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  08:37:02 Failed to determine the https port for redirect.
+WARN  08:37:02 Failed to determine the https port for redirect.
+INFO  08:37:36 Getting List OF Products!
+INFO  08:38:28 Getting List OF Products!
+INFO  08:54:23 Application started. Press Ctrl+C to shut down.
+INFO  08:54:23 Application started. Press Ctrl+C to shut down.
+INFO  08:54:23 Hosting environment: Development
+INFO  08:54:23 Hosting environment: Development
+INFO  08:54:23 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  08:54:23 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  08:54:23 Failed to determine the https port for redirect.
+WARN  08:54:23 Failed to determine the https port for redirect.
+INFO  08:54:39 Getting List OF Products!
+INFO  08:54:49 Getting List OF Products!
+INFO  08:54:52 Getting List OF Products!
+INFO  08:54:54 Getting List OF Products!
+INFO  08:54:54 Getting List OF Products!
+INFO  08:54:54 Getting List OF Products!
+INFO  08:54:55 Getting List OF Products!
+INFO  08:54:55 Getting List OF Products!
+INFO  08:54:55 Getting List OF Products!
+INFO  08:54:55 Getting List OF Products!
+INFO  08:54:55 Getting List OF Products!
+INFO  08:54:55 Getting List OF Products!
+INFO  08:54:56 Getting List OF Products!
+INFO  08:54:56 Getting List OF Products!
+INFO  08:54:56 Getting List OF Products!
+INFO  08:54:56 Getting List OF Products!
+INFO  08:54:57 Getting List OF Products!
+INFO  08:55:02 Getting List OF Products!
+INFO  08:55:07 Getting List OF Products!
+INFO  08:55:08 Getting List OF Products!
+INFO  08:55:09 Getting List OF Products!
+INFO  08:55:09 Getting List OF Products!
+INFO  08:55:09 Getting List OF Products!
+INFO  08:55:11 Getting List OF Products!
+INFO  08:55:17 Getting List OF Products!
+INFO  12:05:33 Application started. Press Ctrl+C to shut down.
+INFO  12:05:33 Application started. Press Ctrl+C to shut down.
+INFO  12:05:33 Hosting environment: Development
+INFO  12:05:33 Hosting environment: Development
+INFO  12:05:33 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:05:33 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:05:36 Getting List OF Products!
+INFO  12:06:23 Application started. Press Ctrl+C to shut down.
+INFO  12:06:23 Application started. Press Ctrl+C to shut down.
+INFO  12:06:23 Hosting environment: Development
+INFO  12:06:23 Hosting environment: Development
+INFO  12:06:23 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:06:23 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  12:06:23 Failed to determine the https port for redirect.
+WARN  12:06:23 Failed to determine the https port for redirect.
+INFO  12:06:40 Getting List OF Products!
+INFO  12:08:42 Application started. Press Ctrl+C to shut down.
+INFO  12:08:42 Application started. Press Ctrl+C to shut down.
+INFO  12:08:42 Hosting environment: Development
+INFO  12:08:42 Hosting environment: Development
+INFO  12:08:42 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:08:42 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  12:08:42 Failed to determine the https port for redirect.
+WARN  12:08:42 Failed to determine the https port for redirect.
+INFO  12:09:58 Application started. Press Ctrl+C to shut down.
+INFO  12:09:58 Application started. Press Ctrl+C to shut down.
+INFO  12:09:58 Hosting environment: Development
+INFO  12:09:58 Hosting environment: Development
+INFO  12:09:58 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:09:58 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  12:09:58 Failed to determine the https port for redirect.
+WARN  12:09:58 Failed to determine the https port for redirect.
+INFO  12:10:19 Getting List OF Products!
+INFO  12:10:39 Getting List OF Products!
+INFO  12:10:45 Getting List OF Products!
+INFO  12:10:56 Getting List OF Products!
+INFO  12:12:33 Application started. Press Ctrl+C to shut down.
+INFO  12:12:33 Application started. Press Ctrl+C to shut down.
+INFO  12:12:33 Hosting environment: Development
+INFO  12:12:33 Hosting environment: Development
+INFO  12:12:33 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:12:33 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  12:12:33 Failed to determine the https port for redirect.
+WARN  12:12:33 Failed to determine the https port for redirect.
+INFO  12:13:06 Application started. Press Ctrl+C to shut down.
+INFO  12:13:06 Application started. Press Ctrl+C to shut down.
+INFO  12:13:06 Hosting environment: Development
+INFO  12:13:06 Hosting environment: Development
+INFO  12:13:06 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:13:06 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  12:13:06 Failed to determine the https port for redirect.
+WARN  12:13:06 Failed to determine the https port for redirect.
+INFO  12:13:45 Application started. Press Ctrl+C to shut down.
+INFO  12:13:45 Application started. Press Ctrl+C to shut down.
+INFO  12:13:45 Hosting environment: Development
+INFO  12:13:45 Hosting environment: Development
+INFO  12:13:45 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:13:45 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  12:13:45 Failed to determine the https port for redirect.
+WARN  12:13:45 Failed to determine the https port for redirect.
+INFO  12:14:02 Getting List OF Products!
+INFO  12:14:14 Getting List OF Products!
+INFO  12:14:18 Getting List OF Products!
+INFO  12:17:39 Application started. Press Ctrl+C to shut down.
+INFO  12:17:39 Application started. Press Ctrl+C to shut down.
+INFO  12:17:39 Hosting environment: Development
+INFO  12:17:39 Hosting environment: Development
+INFO  12:17:39 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:17:39 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  12:17:39 Failed to determine the https port for redirect.
+WARN  12:17:39 Failed to determine the https port for redirect.
+INFO  12:21:32 Application started. Press Ctrl+C to shut down.
+INFO  12:21:32 Application started. Press Ctrl+C to shut down.
+INFO  12:21:32 Hosting environment: Development
+INFO  12:21:32 Hosting environment: Development
+INFO  12:21:32 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:21:32 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  12:21:32 Failed to determine the https port for redirect.
+WARN  12:21:32 Failed to determine the https port for redirect.
+INFO  12:24:23 Application started. Press Ctrl+C to shut down.
+INFO  12:24:23 Application started. Press Ctrl+C to shut down.
+INFO  12:24:23 Hosting environment: Development
+INFO  12:24:23 Hosting environment: Development
+INFO  12:24:23 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+INFO  12:24:23 Content root path: D:\MyAspDotNetProjects\Shirt Shop\Product-MS
+WARN  12:24:23 Failed to determine the https port for redirect.
+WARN  12:24:23 Failed to determine the https port for redirect.
+INFO  12:25:43 Getting List OF Products!
+INFO  12:25:52 Getting List OF Products!
